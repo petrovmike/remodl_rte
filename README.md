@@ -1,13 +1,8 @@
-# Flutter Rich Text Editor
+# Remodl.ai Rich Text Editor
 
 Easy to use WYSIWYG HTML editor for Flutter with built-in voice-to-text.
 <br />
 
-### Try it [here](https://flutter-rich-text.web.app/)
-
-<br />
-
-![Flutter Rich Text Editor Web](./media/screen1.jpg)
 
 ____
 

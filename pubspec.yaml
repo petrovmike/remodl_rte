@@ -1,15 +1,14 @@
-name: flutter_rte
+name: remodl_rte
 description: >-
-  HTML editor for Flutter (WYSIWYG, rich text) with built-in speech-to-text.
+  HTML editor for Flutter (WYSIWYG, rich text) with built-in speech-to-text 
+  and custom features for Remodl.
 
 version: 1.0.0
 
-publish_to:
-
-repository: https://github.com/13302296C/flutter_rte
-issue_tracker: https://github.com/13302296C/flutter_rte/issues
-homepage: https://flutter-rich-text.web.app
-documentation: https://github.com/13302296C/flutter_rte/blob/master/README.md
+repository: https://github.com/remodlai/remodl_rte
+issue_tracker: https://github.com/remodlai/remodl_rte/issues
+homepage: https://remodl.ai
+documentation: https://github.com/remodlai/remodl_rte/blob/master/README.md
 
 platforms:
   android:
@@ -30,8 +29,7 @@ dependencies:
     sdk: flutter
   flex_color_picker: 
   numberpicker: 
-  pointer_interceptor:  # in Flutter 3.0 and below
-                        # use 0.9.0+1 due to bugs in framework
+  pointer_interceptor:  
   speech_to_text: ^6.0.0
   webview_flutter: ^4.0.1
   meta:
@@ -47,7 +45,7 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
   assets:
-    - packages/flutter_rte/assets/document.html
+    - packages/remodl_rte/assets/document.html
     - lib/assets/document.html
 
   # To add assets to your package, add an assets section, like this:
