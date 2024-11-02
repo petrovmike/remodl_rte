@@ -22,7 +22,7 @@ abstract class PlatformSpecificMixin {
   }
 
   /// path to asset html file
-  final String filePath = 'packages/remdol_rte/lib/assets/document.html';
+  final String filePath = 'packages/remodl_rte/lib/assets/document.html';
 
   HtmlEditorController? _c;
 

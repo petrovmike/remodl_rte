@@ -1,19 +1,19 @@
-library remdol_rte;
+library remodl_rte;
 
-export 'package:remdol_rte/src/widgets/toolbar_widget.dart';
-export 'package:remdol_rte/src/models/callbacks.dart';
-export 'package:remdol_rte/src/models/toolbar.dart';
-export 'package:remdol_rte/src/models/file_upload_model.dart';
-export 'package:remdol_rte/src/models/html_editor_options.dart';
-export 'package:remdol_rte/src/models/html_styling_options.dart';
-export 'package:remdol_rte/src/models/html_toolbar_options.dart';
-export 'package:remdol_rte/src/models/custom_toolbar_buttons.dart';
-//export 'package:remdol_rte/utils/plugins.dart';
-export 'package:remdol_rte/src/utils/utils.dart'
+export 'package:remodl_rte/src/widgets/toolbar_widget.dart';
+export 'package:remodl_rte/src/models/callbacks.dart';
+export 'package:remodl_rte/src/models/toolbar.dart';
+export 'package:remodl_rte/src/models/file_upload_model.dart';
+export 'package:remodl_rte/src/models/html_editor_options.dart';
+export 'package:remodl_rte/src/models/html_styling_options.dart';
+export 'package:remodl_rte/src/models/html_toolbar_options.dart';
+export 'package:remodl_rte/src/models/custom_toolbar_buttons.dart';
+//export 'package:remodl_rte/utils/plugins.dart';
+export 'package:remodl_rte/src/utils/utils.dart'
     hide setState, intersperse, getRandString;
 
-export 'package:remdol_rte/src/widgets/editor_widget.dart';
-export 'package:remdol_rte/src/controllers/editor_controller.dart';
+export 'package:remodl_rte/src/widgets/editor_widget.dart';
+export 'package:remodl_rte/src/controllers/editor_controller.dart';
 
 /// Defines the 3 different cases for file insertion failing
 enum UploadError { unsupportedFile, exceededMaxSize, jsException }

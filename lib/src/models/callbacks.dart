@@ -1,4 +1,4 @@
-import 'package:remodl_rte/remdol_rte.dart';
+import 'package:remodl_rte/remodl_rte.dart';
 import 'package:remodl_rte/src/models/editor_settings.dart';
 
 /// Manages all the callback functions the library provides

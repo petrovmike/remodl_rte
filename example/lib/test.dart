@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:remodl_rte/remdol_rte.dart';
+import 'package:remodl_rte/remodl_rte.dart';
 
 class Test extends StatefulWidget {
   const Test({Key? key}) : super(key: key);

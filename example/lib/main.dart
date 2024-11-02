@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:remodl_rte/remdol_rte.dart';
+import 'package:remodl_rte/remodl_rte.dart';
 import 'fullscreen.dart';
 
 void main() {
