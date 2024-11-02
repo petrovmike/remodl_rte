@@ -1,6 +1,6 @@
 import 'dart:async';
-import 'package:flutter_rte/src/models/toolbar.dart';
-import 'package:flutter_rte/src/widgets/custom_dropdown_button.dart';
+import 'package:remodl_rte/src/models/toolbar.dart';
+import 'package:remodl_rte/src/widgets/custom_dropdown_button.dart';
 import 'package:flutter/material.dart';
 
 import 'custom_toolbar_buttons.dart';

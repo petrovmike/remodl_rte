@@ -1,5 +1,5 @@
-import 'package:flutter_rte/flutter_rte.dart';
-import 'package:flutter_rte/src/models/editor_settings.dart';
+import 'package:remodl_rte/flutter_rte.dart';
+import 'package:remodl_rte/src/models/editor_settings.dart';
 
 /// Manages all the callback functions the library provides
 class Callbacks {

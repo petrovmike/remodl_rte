@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:example/expandable_fab.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_rte/flutter_rte.dart';
+import 'package:remodl_rte/flutter_rte.dart';
 
 enum DemoType { boxed, floatingToolbar, fullscreen }
 
