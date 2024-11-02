@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-remodl="Document Title" data-remodl_instructions="Set the document title based on project type and description.">Construction Work Order</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #fff;" data-remodl="Body Container" data-remodl_instructions="Main container for work order content.">
+    <div class="work-order" style="width: 100%; max-width: 800px; margin: 0 auto; border: 1px solid #000; padding: 20px;" data-remodl="Work Order Container" data-remodl_instructions="Container holding all sections of the work order.">
+        <div class="header" style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #000; padding-bottom: 10px; margin-bottom: 20px;" data-remodl="Header Section" data-remodl_instructions="Header section containing company information and work order details.">
+            <div class="header-left" style="text-align: left;" data-remodl="Header Left Section" data-remodl_instructions="Section for company name and work order details.">
+                <h1 style="margin: 0; font-size: 24px;" data-remodl="Work Order Title" data-remodl_instructions="Title indicating the type of work order.">Construction Work Order</h1>
+                <p style="margin: 5px 0;" data-remodl="Company Name" data-remodl_instructions="Include the full name of the company issuing the work order."><strong>Company Name:</strong> ABC Construction Inc.</p>
+                <p style="margin: 5px 0;" data-remodl="Work Order Number" data-remodl_instructions="Unique identifier for tracking this work order."><strong>Work Order Number:</strong> 00123</p>
+                <p style="margin: 5px 0;" data-remodl="Date" data-remodl_instructions="Specify the date the work order is issued."><strong>Date:</strong> November 1, 2023</p>
+            </div>
+            <div class="logo" style="max-width: 120px;" data-remodl="Company Logo" data-remodl_instructions="Area for the company's logo image.">
+                <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/demo-o82y47/assets/hb606it7lz0u/remodLlight_new.png" alt="Company Logo" style="width: 100%; height: auto;" data-remodl="Logo Image" data-remodl_instructions="Ensure the company's logo is correctly formatted and displayed." />
+            </div>
+        </div>
+
+        <div class="section" style="margin-bottom: 20px;" data-remodl="Client Information Section" data-remodl_instructions="Section for client contact information and project address.">
+            <h2 style="font-size: 18px; border-bottom: 1px solid #000; padding-bottom: 5px; margin-bottom: 10px;" data-remodl="Client Information Title" data-remodl_instructions="Title for the client information section.">Client Information</h2>
+            <p data-remodl="Client Name" data-remodl_instructions="Full name of the client."><strong>Client Name:</strong> John Doe</p>
+            <p data-remodl="Client Address" data-remodl_instructions="Address where the work will be performed."><strong>Address:</strong> 123 Main Street, City, State, Zip</p>
+            <p data-remodl="Client Phone" data-remodl_instructions="Client's contact phone number."><strong>Phone:</strong> (123) 456-7890</p>
+        </div>
+
+        <div class="section" style="margin-bottom: 20px;" data-remodl="Work Description Section" data-remodl_instructions="Overview of the project's work details and objectives.">
+            <h2 style="font-size: 18px; border-bottom: 1px solid #000; padding-bottom: 5px; margin-bottom: 10px;" data-remodl="Work Description Title" data-remodl_instructions="Title for the work description section.">Work Description</h2>
+            <p data-remodl="Work Description Text" data-remodl_instructions="A brief summary of the work to be completed, outlining key tasks and objectives.">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non orci a tortor gravida accumsan. Suspendisse potenti. Nunc sit amet lacus at mauris laoreet dignissim.</p>
+        </div>
+
+        <div class="section" style="margin-bottom: 20px;" data-remodl="Tasks Section" data-remodl_instructions="Detailed task descriptions related to the project with completion status.">
+            <h2 style="font-size: 18px; border-bottom: 1px solid #000; padding-bottom: 5px; margin-bottom: 10px;" data-remodl="Tasks Title" data-remodl_instructions="Title for the tasks section.">Tasks to be Completed</h2>
+            <div class="task-item" style="display: flex; align-items: flex-start; margin-bottom: 10px;" data-remodl="Task Item 1" data-remodl_instructions="Each task must include a title, description, and definition of done.">
+                <input type="checkbox" id="task-1" style="margin-right: 10px;" data-remodl="Task Checkbox 1" data-remodl_instructions="Checkbox for marking the task as complete.">
+                <label for="task-1" data-remodl="Task Label 1" data-remodl_instructions="Label that contains the task title and details.">
+                    <strong data-remodl="Task Title 1" data-remodl_instructions="Task title with a brief overview of the main action.">1. Excavate and prepare foundation area</strong>
+                    <p data-remodl="Task Description 1" data-remodl_instructions="Clear description of the steps to perform this task.">Description: Clear the area of debris, dig to the required depth, and ensure a level surface for the foundation.</p>
+                    <p data-remodl="Task Definition of Done 1" data-remodl_instructions="Criteria to determine when this task is successfully completed.">Definition of Done: Area is cleared, excavated to the correct depth, and leveled, ready for foundation pouring.</p>
+                </label>
+            </div>
+            <!-- Repeat for other tasks as necessary -->
+        </div>
+
+        <div class="section" style="margin-bottom: 20px;" data-remodl="Materials & Labor Section" data-remodl_instructions="Table detailing each item/material along with costs and quantities.">
+            <h2 style="font-size: 18px; border-bottom: 1px solid #000; padding-bottom: 5px; margin-bottom: 10px;" data-remodl="Materials & Labor Title" data-remodl_instructions="Title for the materials and labor section.">Materials & Labor</h2>
+            <table style="width: 100%; border-collapse: collapse;" data-remodl="Materials & Labor Table" data-remodl_instructions="Include an itemized list of materials and labor with corresponding costs.">
+                <thead data-remodl="Table Header" data-remodl_instructions="Headings for the materials and labor table.">
+                    <tr>
+                        <th style="border: 1px solid #000; padding: 8px; text-align: left; background-color: #f0f0f0;" data-remodl="Table Header Item" data-remodl_instructions="Column for item names.">Item</th>
+                        <th style="border: 1px solid #000; padding: 8px; text-align: left; background-color: #f0f0f0;" data-remodl="Table Header Description" data-remodl_instructions="Column for item descriptions.">Description</th>
+                        <th style="border: 1px solid #000; padding: 8px; text-align: left; background-color: #f0f0f0;" data-remodl="Table Header Quantity" data-remodl_instructions="Column for quantities required.">Quantity</th>
+                        <th style="border: 1px solid #000; padding: 8px; text-align: left; background-color: #f0f0f0;" data-remodl="Table Header Unit Price" data-remodl_instructions="Column for the price per unit.">Unit Price</th>
+                        <th style="border: 1px solid #000; padding: 8px; text-align: left; background-color: #f0f0f0;" data-remodl="Table Header Total" data-remodl_instructions="Column for total cost per item.">Total</th>
+                    </tr>
+                </thead>
+                <tbody data-remodl="Table Body" data-remodl_instructions="Body for the materials and labor table. Each row should represent a material or labor type.">
+                    <tr data-remodl="Table Row 1" data-remodl_instructions="Row detailing material or labor specifics.">
+                        <td style="border: 1px solid #000; padding: 8px; text-align: left;" data-remodl="Row 1 Item" data-remodl_instructions="Name of the first item or labor type.">1</td>
+                        <td style="border: 1px solid #000; padding: 8px; text-align: left;" data-remodl="Row 1 Description" data-remodl_instructions="Detailed description of the first item or labor type.">Concrete</td>
+                        <td style="border: 1px solid #000; padding: 8px; text-align: left;" data-remodl="Row 1 Quantity" data-remodl_instructions="Required quantity of the first item or labor type.">5 cubic yards</td>
+                        <td style="border: 1px solid #000; padding: 8px; text-align: left;" data-remodl="Row 1 Unit Price" data-remodl_instructions="Unit price for the first item or labor type.">$120</td>
+                        <td style="border: 1px solid #000; padding: 8px; text-align: left;" data-remodl="Row 1 Total" data-remodl_instructions="Total cost for the first item or labor type.">$600</td>
+                    </tr>
+                    <!-- Repeat for other materials and labor as necessary -->
+                </tbody>
+                <tfoot data-remodl="Table Footer" data-remodl_instructions="Footer showing total cost for materials and labor.">
+                    <tr data-remodl="Footer Row" data-remodl_instructions="Row displaying overall total cost.">
+                        <th colspan="4" style="border: 1px solid #000; padding: 8px; text-align: left;" data-remodl="Total Cost Label" data-remodl_instructions="Label for the overall cost total.">Total Cost</th>
+                        <th style="border: 1px solid #000; padding: 8px; text-align: left;" data-remodl="Total Cost Value" data-remodl_instructions="Overall cost for the project.">$1000</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <div class="section" style="margin-bottom: 20px;" data-remodl="Notes Section" data-remodl_instructions="Notes or additional instructions for the client.">
+            <h2 style="font-size: 18px; border-bottom: 1px solid #000; padding-bottom: 5px; margin-bottom: 10px;" data-remodl="Notes Title" data-remodl_instructions="Title for the notes section.">Notes</h2>
+            <p data-remodl="Notes Text" data-remodl_instructions="Any important notes or considerations for the client.">Please ensure all materials are available on site before work commencement. Payment terms are net 15 days after completion.</p>
+        </div>
+
+        <div class="footer" style="text-align: center; margin-top: 30px; font-size: 14px;" data-remodl="Footer Section" data-remodl_instructions="Footer with closing remarks and contact information.">
+            <p data-remodl="Footer Text" data-remodl_instructions="Thank you message with contact details.">Thank you for your business. If you have any questions, please contact us at (123) 456-7890.</p>
+        </div>
+    </div>
+</body>
+</html>

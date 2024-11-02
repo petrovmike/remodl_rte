@@ -3,7 +3,7 @@ description: >-
   HTML editor for Flutter (WYSIWYG, rich text) with built-in speech-to-text 
   and custom features for Remodl.
 
-version: 1.0.0
+version: 1.0.4
 
 repository: https://github.com/remodlai/remodl_rte
 issue_tracker: https://github.com/remodlai/remodl_rte/issues
