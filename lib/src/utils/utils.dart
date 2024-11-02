@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'dart:math';
-import 'package:remodl_rte/flutter_rte.dart';
+import 'package:remodl_rte/remdol_rte.dart';
 
 /// small function to always check if mounted before running setState()
 void setState(

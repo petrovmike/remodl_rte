@@ -4,7 +4,7 @@ import 'dart:developer';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:remodl_rte/flutter_rte.dart';
+import 'package:remodl_rte/remdol_rte.dart';
 import 'package:remodl_rte/src/utils/utils.dart';
 import 'package:meta/meta.dart';
 

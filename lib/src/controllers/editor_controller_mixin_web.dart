@@ -13,7 +13,7 @@ abstract class PlatformSpecificMixin {
   String viewId = '';
 
   ///
-  final String filePath = 'packages/flutter_rte/lib/assets/document.html';
+  final String filePath = 'packages/remdol_rte/lib/assets/document.html';
 
   ///
   WebViewController get editorController =>

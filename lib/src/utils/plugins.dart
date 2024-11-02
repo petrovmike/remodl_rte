@@ -34,7 +34,7 @@ class SummernoteAtMention extends Plugins {
 
   @override
   String getHeadString() {
-    return '<script src="assets/packages/flutter_rte/assets/plugins/summernote-at-mention/summernote-at-mention.js"></script>';
+    return '<script src="assets/packages/remdol_rte/assets/plugins/summernote-at-mention/summernote-at-mention.js"></script>';
   }
 
   @override

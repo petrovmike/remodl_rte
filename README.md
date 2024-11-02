@@ -40,7 +40,7 @@ Basic implementation of this editor doesn't require a controller. For simplicity
 
 
 ```Dart
-import 'package:remodl_rte/flutter_rte.dart';
+import 'package:remodl_rte/remdol_rte.dart';
 
 // ...
 
