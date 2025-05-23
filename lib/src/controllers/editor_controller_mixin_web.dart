@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:developer';
+import 'dart:ui_web';
 // ignore: avoid_web_libraries_in_flutter
 import 'dart:html' as html;
 // import 'dart:ui' as ui;
