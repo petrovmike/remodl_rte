@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'dart:developer';
 // ignore: avoid_web_libraries_in_flutter
 import 'dart:html' as html;
-import 'dart:ui' as ui;
+// import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 import 'package:remodl_rte/src/controllers/editor_controller.dart';
 import 'package:webview_flutter/webview_flutter.dart';
@@ -78,7 +78,7 @@ abstract class PlatformSpecificMixin {
         html.window.postMessage(jsonStr, '*');
       });
     // ignore: undefined_prefixed_name
-    ui.platformViewRegistry.registerViewFactory(viewId, (int viewId) => iframe);
+    platformViewRegistry.registerViewFactory(viewId, (int viewId) => iframe);
   }
 
   ///
